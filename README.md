@@ -15,7 +15,7 @@ Incoming Message: hello echo
 # `tcpdump` packet capture
 Run `tcpdump -i lo0 -s 0 -w capture.pcap`.
 
-Stop the dump after making requests to localhost/lo0
+Stop the dump after making requests to `localhost`/`lo0`.
 
 Read the dump with `tcpdump -r capture.pcap | less`
 
